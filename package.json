@@ -1,0 +1,30 @@
+{
+  "name": "advent-of-code-2021",
+  "version": "1.0.0",
+  "description": "Might not abandon it this year!",
+  "main": "index.js",
+  "scripts": {
+    "day1": "ts-node day1/index.ts",
+    "test": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterjcole/advent-of-code-2021.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peterjcole/advent-of-code-2021/issues"
+  },
+  "homepage": "https://github.com/peterjcole/advent-of-code-2021#readme",
+  "devDependencies": {
+    "@babel/core": "7.16.0",
+    "@babel/preset-env": "7.16.4",
+    "@babel/preset-typescript": "7.16.0",
+    "@types/jest": "27.0.3",
+    "jest": "27.4.2",
+    "prettier": "2.5.0",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  }
+}
