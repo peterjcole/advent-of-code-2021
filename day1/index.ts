@@ -15,8 +15,6 @@ export const getSlidingWindowIncreases = (input: number[]) => {
     return input.slice(index, index + 3)
   })
 
-  console.log(windows)
-
   return windows.reduce(
     ({ previousSum, numberOfIncreases }, currentValue) => {
       const currentSum = currentValue.reduce(
